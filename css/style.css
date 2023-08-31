@@ -1,13 +1,7 @@
 /* Svuota type reset  */
 :root{
   --h-header: 60px;
-  --w-aside: 120px;
-}
-
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  --w-aside: 70px;
 }
 
 .debug *{

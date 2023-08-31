@@ -1,0 +1,7 @@
+
+
+@media (min-width: 992px){
+  :root{
+    --w-aside: 150px;
+  }
+}
