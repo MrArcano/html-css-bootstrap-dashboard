@@ -29,6 +29,40 @@ header{
   height: var(--h-header);
 }
 
+/* logo mobile dimension */
+.image-ml{
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.image-ml img{
+  height: 48px;
+  width: 48px;
+}
+
+/* input text */
+.form-control-custom{
+  background-color: transparent;
+  border: none;
+ }
+ 
+ .form-control-custom::placeholder{
+   font-size: 14px;
+   font-weight: bold;
+   opacity: 0.5;
+ }
+ 
+ .form-control-custom:focus{
+   background-color: transparent;
+   box-shadow: none;
+ }
+/* ---------------------------------- */
+
 /* ----------------------------------
     MAIN 
 -----------------------------------*/
@@ -44,49 +78,9 @@ aside{
   background-image: url("/img/sidebar-bg.png");
 }
 
-/* scroll-box */
-.scroll-box{
-  width: calc(100% - var(--w-aside));
-  overflow-y: auto;
-}
-
-.form-control-custom{
- background-color: transparent;
- border: none;
-}
-
-.form-control-custom::placeholder{
-  font-size: 14px;
-  font-weight: bold;
-  opacity: 0.5;
-}
-
-.form-control-custom:focus{
-  background-color: transparent;
-  box-shadow: none;
-}
-
-/* logo mobile dimension */
-/* ---------------------------------- */
-.image-ml{
-  height: 32px;
-  width: 32px;
-  overflow: hidden;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-}
-
-.image-ml img{
-  height: 48px;
-  width: 48px;
-}
-/* ---------------------------------- */
-
 .btn-custom{
   color: white;
-  width: 75%;
+  width: 80%;
   border-radius: 0;
 }
 
@@ -94,3 +88,22 @@ aside{
   color: white;
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+aside i{
+  width: 30px;
+}
+
+/* scroll-box */
+.scroll-box{
+  width: calc(100% - var(--w-aside));
+  overflow-y: auto;
+}
+
+/* Prossime classi */
+
+.scroll-box td img{
+  width: 25px;
+}
+
+
+
