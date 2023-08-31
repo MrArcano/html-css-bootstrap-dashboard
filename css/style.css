@@ -11,6 +11,9 @@
   /* background-color: rgba(0, 0, 0, 0.199); */
 }
 
+/* ----------------------------------
+    UTILITY
+-----------------------------------*/
 .bg-grey{
   background-color: #f8f9fa;
 }
@@ -21,6 +24,14 @@
 
 .text-orange{
   color: var(--text-orange);
+}
+
+.w-40{
+  width: 40%;
+}
+
+.w-15{
+  width: 15%;
 }
 /* ----------------------------------
     HEADER 
@@ -104,6 +115,7 @@ aside i{
 .scroll-box td img{
   width: 25px;
 }
+
 
 
 
