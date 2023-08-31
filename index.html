@@ -17,26 +17,34 @@
 
   <title>Bool Dashboard</title>
 </head>
-<body class="debug">
+<body>
   <header>
     <!-- navbar -->
-    <nav class="navbar navbar-expand bg-body-tertiary">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand bg-grey">
+      <div class="container-fluid bg-white ">
         <!-- logo -->
-        <a class="navbar-brand" href="#">
-          <img class="img-fluid " src="img/logo.svg" alt="Logo">
+        <a class="navbar-brand navbar-brand" href="#">
+
+          <div class="d-none d-lg-block">
+            <img class="img-fluid " src="img/logo.svg" alt="logo">
+          </div>
+          <div class="image-ml d-lg-none">
+            <img class="" src="img/mobile-logo.png" alt="mobile-logo">
+          </div>
         </a>
         <!-- end logo -->
 
         <!-- menu -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-          <input class="form-control form-control-custom" type="text" placeholder="Search" aria-label="Search">
           
-          <form>
-            <!-- <input class="form-control" type="text" placeholder="Search"> -->
-            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+          <!-- form search -->
+          <form class="bg-light-grey rounded d-flex align-items-center w-100">
+            <label for="search" class="ms-2">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </label>
+            <input type="text" placeholder="Prova a cercare: Lezione di Laravel" class="form-control form-control-custom" id="search">
           </form>
+          <!-- end form -->
 
           <ul class="navbar-nav">
             
@@ -55,9 +63,10 @@
                 <i class="fa-solid fa-ellipsis-vertical"></i>
               </a>
             </li>
+
             <!-- dropdown -->
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link text-orange" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-bell"></i>
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
@@ -75,7 +84,7 @@
     </nav>
     <!-- end navbar -->
   </header>
-  <main>
+  <main class="debug">
     <aside>
       ASIDE
     </aside>

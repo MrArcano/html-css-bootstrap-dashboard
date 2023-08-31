@@ -9,6 +9,17 @@
   /* background-color: rgba(0, 0, 0, 0.199); */
 }
 
+.bg-grey{
+  background-color: #f8f9fa;
+}
+
+.bg-light-grey{
+  background-color: #e5e5e5;
+}
+
+.text-orange{
+  color: #ff8f00;
+}
 /* ----------------------------------
     HEADER 
 -----------------------------------*/
@@ -36,5 +47,35 @@ aside{
 }
 
 .form-control-custom{
-  background-color: red;
+ background-color: transparent;
+ border: none;
 }
+
+.form-control-custom::placeholder{
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.form-control-custom:focus{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* logo mobile dimension */
+/* ---------------------------------- */
+.image-ml{
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.image-ml img{
+  height: 48px;
+  width: 48px;
+}
+/* ---------------------------------- */
