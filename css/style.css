@@ -2,6 +2,8 @@
 :root{
   --h-header: 60px;
   --w-aside: 70px;
+
+  --text-orange: #ff8f00;
 }
 
 .debug *{
@@ -18,7 +20,7 @@
 }
 
 .text-orange{
-  color: #ff8f00;
+  color: var(--text-orange);
 }
 /* ----------------------------------
     HEADER 
@@ -38,6 +40,8 @@ main{
 /* aside */
 aside{
   width: var(--w-aside);
+  background-color: #051e34;
+  background-image: url("/img/sidebar-bg.png");
 }
 
 /* scroll-box */
