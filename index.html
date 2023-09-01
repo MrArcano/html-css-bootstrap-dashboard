@@ -41,10 +41,14 @@
           
           <!-- form search -->
           <form class="bg-light-grey rounded d-flex align-items-center w-100">
-            <label for="search" class="ms-2">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </label>
-            <input type="text" placeholder="Prova a cercare: Lezione di Laravel" class="form-control form-control-custom" id="search">
+
+            <div class="input-group">
+              <span class="input-group-text form-control-custom" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+              <input type="text" class="form-control form-control-custom" placeholder="Prova a cercare: Lezione di Laravel" aria-label="search" aria-describedby="search">
+            </div>
+
           </form>
           <!-- end form -->
 
@@ -135,7 +139,7 @@
       <div class="bg-blue text-white">
         <div class="container-fluid d-lg-flex justify-content-between">
           <!-- box nuovo studente -->
-          <div class="p-3 order-3">
+          <div class="p-3 order-last">
             <span class="pe-3">Nuovo Studente</span>
             <button class="btn btn-outline-light btn-custom-add" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
               <i class="fa-solid fa-plus"></i>
@@ -169,7 +173,7 @@
                     <div class="col-12 col-lg-6">
                       <label for="email" class="form-label">Email</label>
                       <div class="input-group">
-                        <span class="input-group-text" id="basic-addon">@</span>
+                        <span class="input-group-text" id="basic-addon-1">@</span>
                         <input type="text" name="email" class="form-control" id="email">
                       </div>
                     </div>
@@ -233,7 +237,7 @@
           <!--end box nuovo studente -->
 
           <!-- box - boolean badge - studenti online -->
-          <div class="p-3 order-1">
+          <div class="p-3">
             <div>
                 <span class="fs-2">Boolean</span>
                 <span class="badge rounded-pill bg-badge">Piano blaze</span>
@@ -256,7 +260,7 @@
           <!--end box - boolean badge -->
           
           <!-- studenti online -->
-          <div class="p-3 order-2">
+          <div class="p-3">
             <p>Studenti online negli ultimi 30 minuti</p>
             <h2>125</h2>
           </div>
@@ -289,7 +293,7 @@
 
                     <tr>
                       <td class="text-start">
-                        <img src="img/class-avatar.jpg" alt="class-avatar">
+                        <img class="rounded" src="img/class-avatar.jpg" alt="class-avatar">
                         <span>Classe 75</span>
                       </td>
                       <td class="text-center">15 Feb 2021</td>
@@ -306,7 +310,7 @@
                     </tr>  
                     <tr>
                       <td class="text-start">
-                        <img src="img/class-avatar.jpg" alt="class-avatar">
+                        <img class="rounded" src="img/class-avatar.jpg" alt="class-avatar">
                         <span>Classe 76</span>
                       </td>
                       <td>16 Feb 2021</td>
@@ -323,7 +327,7 @@
                     </tr>  
                     <tr>
                       <td class="text-start">
-                        <img src="img/class-avatar.jpg" alt="class-avatar">
+                        <img class="rounded" src="img/class-avatar.jpg" alt="class-avatar">
                         <span>Classe 77</span>
                       </td>
                       <td>17 Feb 2021</td>
@@ -340,7 +344,7 @@
                     </tr>  
                     <tr>
                       <td class="text-start">
-                        <img src="img/class-avatar.jpg" alt="class-avatar">
+                        <img class="rounded" src="img/class-avatar.jpg" alt="class-avatar">
                         <span>Classe 78</span>
                       </td>
                       <td>18 Feb 2021</td>
@@ -357,7 +361,7 @@
                     </tr>  
                     <tr>
                       <td class="text-start">
-                        <img src="img/class-avatar.jpg" alt="class-avatar">
+                        <img class="rounded" src="img/class-avatar.jpg" alt="class-avatar">
                         <span>Classe 79</span>
                       </td>
                       <td>19 Feb 2021</td>
@@ -374,7 +378,7 @@
                     </tr>  
                     <tr>
                       <td class="text-start">
-                        <img src="img/class-avatar.jpg" alt="class-avatar">
+                        <img class="rounded" src="img/class-avatar.jpg" alt="class-avatar">
                         <span>Classe 80</span>
                       </td>
                       <td>20 Feb 2021</td>
@@ -391,7 +395,7 @@
                     </tr>  
                     <tr>
                       <td class="text-start">
-                        <img src="img/class-avatar.jpg" alt="class-avatar">
+                        <img class="rounded" src="img/class-avatar.jpg" alt="class-avatar">
                         <span>Classe 81</span>
                       </td>
                       <td>21 Feb 2021</td>
@@ -408,7 +412,7 @@
                     </tr>  
                     <tr>
                       <td class="text-start">
-                        <img src="img/class-avatar.jpg" alt="class-avatar">
+                        <img class="rounded" src="img/class-avatar.jpg" alt="class-avatar">
                         <span>Classe 82</span>
                       </td>
                       <td>22 Feb 2021</td>
