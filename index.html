@@ -133,10 +133,10 @@
     <div class="scroll-box">
 
       <div class="bg-blue text-white">
-        <div class="container-fluid d-lg-flex flex-lg-row-reverse justify-content-between">
+        <div class="container-fluid d-lg-flex justify-content-between">
           <!-- box nuovo studente -->
-          <div class="py-2">
-            <span>Nuovo Studente</span>
+          <div class="p-3 order-3">
+            <span class="pe-3">Nuovo Studente</span>
             <button class="btn btn-outline-light btn-custom-add" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
               <i class="fa-solid fa-plus"></i>
             </button>
@@ -233,38 +233,35 @@
           <!--end box nuovo studente -->
 
           <!-- box - boolean badge - studenti online -->
-          <div class="d-lg-flex w-75 ">
-            <div class="w-custom py-2">
-              <div>
-                  <span class="fs-2">Boolean</span>
-                  <span class="badge rounded-pill bg-badge">Piano blaze</span>
-              </div>
-              <div>
-                <span class="badge rounded-pill bg-badge">3 app</span>
-                <i class="fa-solid fa-angles-right"></i>
-                <span class="d-lg-none">
-                  <span class="badge rounded-pill bg-badge">
-                    <i class="fa-solid fa-plus"></i>
-                  </span>
-                </span>
-                <span class="d-none d-lg-inline">
-                  <span class="badge rounded-pill bg-badge">Boolean mobile app</span>
-                  <span class="badge rounded-pill bg-badge">Boolean mobile app</span>
-                  <span class="badge rounded-pill bg-badge">Boolean mobile app</span>
-                </span>
-              </div>
+          <div class="p-3 order-1">
+            <div>
+                <span class="fs-2">Boolean</span>
+                <span class="badge rounded-pill bg-badge">Piano blaze</span>
             </div>
-            
-            <!-- studenti online -->
-            <div class="py-2">
-              <p>Studenti online negli ultimi 30 minuti</p>
-              <h2>125</h2>
+            <div>
+              <span class="badge rounded-pill bg-badge">3 app</span>
+              <i class="fa-solid fa-angles-right"></i>
+              <span class="d-lg-none">
+                <span class="badge rounded-pill bg-badge">
+                  <i class="fa-solid fa-plus"></i>
+                </span>
+              </span>
+              <span class="d-none d-lg-inline">
+                <span class="badge rounded-pill bg-badge">Boolean mobile app</span>
+                <span class="badge rounded-pill bg-badge">Boolean mobile app</span>
+                <span class="badge rounded-pill bg-badge">Boolean mobile app</span>
+              </span>
             </div>
-            <!-- end studenti online -->
-
           </div>
-          <!--end box - boolean badge - studenti online -->
-
+          <!--end box - boolean badge -->
+          
+          <!-- studenti online -->
+          <div class="p-3 order-2">
+            <p>Studenti online negli ultimi 30 minuti</p>
+            <h2>125</h2>
+          </div>
+          <!-- end studenti online -->
+          
         </div>
       </div>
 
