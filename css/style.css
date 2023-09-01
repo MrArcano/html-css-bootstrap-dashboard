@@ -142,7 +142,7 @@ table tr th:nth-child(3){
 }
 
 .offcanvas-width{
-  width: 100%;
+  width: 100%!important;
 }
 
 

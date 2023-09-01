@@ -147,11 +147,85 @@
               </div>
 
               <div class="offcanvas-body">
-                <div class="container-fluid">
-                  <div class="row">
-                    
+                <form action="#">
+                  <div class="container-fluid">
+                    <!-- nome e cognome -->
+
+                    <div class="row g-3 mb-3">
+                      <div class="col-12 col-lg-6">
+                        <label for="name" class="form-label">Nome</label>
+                        <input type="text" name="name" class="form-control" id="name">
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <label for="last-name" class="form-label">Cognome</label>
+                        <input type="text" name="last-name" class="form-control" id="last-name">
+                      </div>
+                    </div>
+                  
+                  <!-- email e password -->
+
+                  <div class="row g-3 mb-3">
+                    <div class="col-12 col-lg-6">
+                      <label for="email" class="form-label">Email</label>
+                      <div class="input-group">
+                        <span class="input-group-text" id="basic-addon">@</span>
+                        <input type="text" name="email" class="form-control" id="email">
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <label for="password" class="form-label">Password</label>
+                      <input type="password" name="password" class="form-control" id="password">
+                    </div>
                   </div>
-                </div>
+                
+                  <!-- indirizzo -->
+                  <div class="col-12 mb-3">
+                    <label for="address" class="form-label">Indirizzo</label>
+                    <input type="text" name="address" class="form-control" id="address">
+                  </div>
+
+                  <!-- citta - stato - cap -->
+                  <div class="row g-3">
+                    <div class="col-12 col-lg-6">
+                      <label for="city" class="form-label">Città</label>
+                      <input type="text" name="city" class="form-control" id="city">
+                    </div>
+                    <div class="col-12 col-lg-4">
+                      <label for="inputState" class="form-label">Stato</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Scegli...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-12 col-lg-2">
+                      <label for="cap" class="form-label">CAP</label>
+                      <input type="text" name="cap" class="form-control" id="cap">
+                    </div>
+                  </div>
+
+                  <!-- foto -->
+                  <div class="col-12 mb-3">
+                    <label for="formFileMultiple" class="form-label">Foto</label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple >
+                  </div>
+
+                  <!-- check proseguire -->
+                  <div class="col-12 mb-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+                      <label class="form-check-label" for="invalidCheck">
+                        Seleziona per proseguire
+                      </label>
+                    </div>
+                  </div>
+                  <!-- button salva - svuota -->
+                  <div class="col-12 mb-3">
+                    <button class="btn btn-primary" type="submit">Salva</button>
+                    <button class="btn btn-warning" type="reset">Svuota</button>
+                  </div>
+
+                  </div>
+                </form>
               </div>
             </div>
           </div>
