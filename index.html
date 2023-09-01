@@ -133,20 +133,39 @@
     <div class="scroll-box">
 
       <div class="bg-blue text-white debug">
-        <div class="container-fluid d-lg-flex flex-lg-row-reverse justify-content-between">
+        <div class="container-fluid py-3 d-lg-flex flex-lg-row-reverse justify-content-between">
           <div>
             <span>Nuovo Studente</span>
             <button type="button" class="btn btn-outline-light btn-custom-add">
               <i class="fa-solid fa-plus"></i>
             </button>
           </div>
-          <div class="row row-cols-1 row-cols-lg-2">
-            <div class="col">
-                <span class="fs-2">Boolean</span>
-                <span class="badge rounded-pill bg-badge">Piano blaze</span>
+          <div class="d-lg-flex w-75">
+            <div class="w-custom">
+              <div>
+                  <span class="fs-2">Boolean</span>
+                  <span class="badge rounded-pill bg-badge">Piano blaze</span>
+              </div>
+              <div>
+                <span class="badge rounded-pill bg-badge">3 app</span>
+                <i class="fa-solid fa-angles-right"></i>
+                <span class="d-lg-none">
+                  <span class="badge rounded-pill bg-badge">
+                    <i class="fa-solid fa-plus"></i>
+                  </span>
+                </span>
+                <span class="d-none d-lg-inline">
+                  <span class="badge rounded-pill bg-badge">Boolean mobile app</span>
+                  <span class="badge rounded-pill bg-badge">Boolean mobile app</span>
+                  <span class="badge rounded-pill bg-badge">Boolean mobile app</span>
+                </span>
+              </div>
             </div>
             
-            <div class="col">Studenti</div>
+            <div class="">
+              <p>Studenti online negli ultimi 30 minuti</p>
+              <h2>125</h2>
+            </div>
           </div>
         </div>
       </div>
@@ -163,7 +182,7 @@
                 <table class="table table-hover text-center">
                   <thead>
                     <tr>
-                      <th class="w-40 text-start" scope="col">Nome</th>
+                      <th class="w-100 text-start" scope="col">Nome</th>
                       <th class="w-small" scope="col">Data inizio</th>
                       <th class="w-small" scope="col">ROI</th>
                       <th class="w-small" scope="col">Stato</th>

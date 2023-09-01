@@ -33,16 +33,25 @@
   color: var(--text-orange);
 }
 
-
-
-.w-40{
-  width: 40%;
+.text-orange:hover{
+  color: var(--text-orange);
 }
+
+.text-orange:focus{
+  color: var(--text-orange);
+}
+
+
+
 
 .w-small{
-  width: 15%;
   min-width: 110px;
 }
+
+.w-custom{
+  width: 100%;
+}
+
 /* ----------------------------------
     HEADER 
 -----------------------------------*/
