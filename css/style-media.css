@@ -7,6 +7,10 @@
     width: 60%;
   }
 
+  .offcanvas-width{
+    width: 50%;
+  }
+
 }
 
 @media (min-width: 720px){

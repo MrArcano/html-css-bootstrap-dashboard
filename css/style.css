@@ -41,9 +41,6 @@
   color: var(--text-orange);
 }
 
-
-
-
 .w-small{
   min-width: 110px;
 }
@@ -142,6 +139,10 @@ table tr th:nth-child(2),
 table tr td:nth-child(3),
 table tr th:nth-child(3){
   display: none;
+}
+
+.offcanvas-width{
+  width: 100%;
 }
 
 

@@ -132,13 +132,28 @@
     <!-- SCROLLBOX -->
     <div class="scroll-box">
 
-      <div class="bg-blue text-white debug">
+      <div class="bg-blue text-white">
         <div class="container-fluid py-3 d-lg-flex flex-lg-row-reverse justify-content-between">
           <div>
             <span>Nuovo Studente</span>
-            <button type="button" class="btn btn-outline-light btn-custom-add">
+            <button class="btn btn-outline-light btn-custom-add" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
               <i class="fa-solid fa-plus"></i>
             </button>
+
+            <div class="offcanvas offcanvas-end offcanvas-width" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+
+              <div class="offcanvas-body">
+                <div class="container-fluid">
+                  <div class="row">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="d-lg-flex w-75">
             <div class="w-custom">
