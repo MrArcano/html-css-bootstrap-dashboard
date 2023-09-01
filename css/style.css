@@ -30,8 +30,9 @@
   width: 40%;
 }
 
-.w-15{
+.w-small{
   width: 15%;
+  min-width: 110px;
 }
 /* ----------------------------------
     HEADER 
@@ -111,11 +112,19 @@ aside i{
 }
 
 /* Prossime classi */
-
 .scroll-box td img{
   width: 25px;
 }
 
+/* table */
+
+/* di default - mobile first, la colonna 2 e 3 non si vedono */
+table tr td:nth-child(2),
+table tr th:nth-child(2),
+table tr td:nth-child(3),
+table tr th:nth-child(3){
+  display: none;
+}
 
 
 

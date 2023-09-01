@@ -3,3 +3,17 @@
     --w-aside: 150px;
   }
 }
+
+@media (min-width: 720px){
+  table tr td:nth-child(2),
+  table tr th:nth-child(2){
+    display: table-cell;
+  }
+}
+
+@media (min-width: 590px){
+  table tr td:nth-child(3),
+  table tr th:nth-child(3){
+    display: table-cell;
+  }
+}
