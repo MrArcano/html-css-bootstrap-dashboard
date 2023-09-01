@@ -7,8 +7,8 @@
     width: 60%;
   }
 
-  .offcanvas-width{
-    width: 50%!important;
+  .maxw-lg-800px{
+    max-width: 800px;
   }
 
 }
