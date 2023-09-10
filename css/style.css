@@ -97,7 +97,7 @@ main{
 aside{
   width: var(--w-aside);
   background-color: #051e34;
-  background-image: url("/img/sidebar-bg.png");
+  background-image: url("../img/sidebar-bg.png");
 }
 
 .btn-custom{
